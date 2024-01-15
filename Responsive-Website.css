@@ -179,11 +179,8 @@ color: rgba(19, 19, 24, 0.70);
 
 
 .Destination{
-    width: 90%;
+    width: 85%;
     margin:0 auto;
-}
-.Destination-point{
-
 }
 .Destination-point h3{
     color: #131318;
@@ -206,6 +203,7 @@ color: rgba(19, 19, 24, 0.70);
 .Destination-image-up{
 display: flex;
 text-align: center;
+gap: 20px;
 }
 .Destination-image-1{
 width: 100%;
@@ -233,8 +231,46 @@ margin: auto;
     }
         .Destination-image-1 img{
             width: 100%;
-            margin: auto;
         }
     
 }
 
+.Destination-image-med{
+display: flex;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+    bottom: 35px;
+}
+
+
+@media screen and (max-width:600px){
+    .Destination-image-med{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+.image-med img{
+    width: 100%;
+}
+}
+.Destination-image-down{
+    display: flex;
+        text-align: center;
+        gap: 20px;
+        position: relative;
+        bottom: 70px;
+}
+@media screen and (max-width:600px) {
+    .Destination-image-down{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    position: relative;
+        bottom: 0px;
+        gap: 10px;
+    }
+    .image-down img {
+        width: 100%;
+        height: auto;
+    }
+}
