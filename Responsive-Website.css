@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* banner start */
 .banner{
     background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
@@ -77,17 +80,16 @@ font-size: 20px;color: #817e7e;
     .banner{
     width: 90%;
         height: 583px;
+        margin: auto;
     }
        .banner-title h3 {
          font-size: 2rem;
          font-weight: 800;
          padding-top: 100px;
-        }/*
+        }
 .banner-title p {
-    width: 80%;
-    text-align: center;
-    font-size: 20px;
-} */
+    width: 90%;
+} 
 #option {
     width: 80%;
     margin: 10px 10px;
@@ -101,3 +103,4 @@ font-size: 20px;color: #817e7e;
     bottom: 320px;
 }
 } 
+/* banner end */
