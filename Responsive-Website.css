@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
 /* banner start */
-.banner{
+.banner {
     background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     background-position: top center;
@@ -16,16 +16,18 @@
     margin: 0 auto;
     border-radius: 10px;
     text-align: center;
-   
+
 }
-.banner-title h3{
+
+.banner-title h3 {
     color: #FFF;
     font-family: Mulish;
     font-size: 4rem;
     font-weight: 800;
     padding-top: 130px;
 }
-.banner-title p{
+
+.banner-title p {
     width: 676px;
     color: #FFF;
     text-align: center;
@@ -33,74 +35,143 @@
     font-weight: 400;
     margin: 20px auto;
 }
-.banner-option{
-   opacity: .7;
-background-color: #FFF;
-width: 815px;
-height: 52px;
-    margin:40px auto;
+
+.banner-option {
+    opacity: .7;
+    background-color: #FFF;
+    width: 815px;
+    height: 52px;
+    margin: 40px auto;
     border-radius: 10px;
     padding: 16px 0;
 }
-.banner-sup-option{
-   position: relative;
-  bottom: 105px;
+
+.banner-sup-option {
+    position: relative;
+    bottom: 105px;
 }
-#option{
+
+#option {
     opacity: 1;
     width: 174px;
     height: 45px;
-     z-index: 1;
-        font-family: Mulish;
-        font-weight: 400;
-        border-radius: 10px;
-        margin: 0 10px;
-        
-        border: none;     
+    z-index: 1;
+    font-family: Mulish;
+    font-weight: 400;
+    border-radius: 10px;
+    margin: 0 10px;
+
+    border: none;
 }
-.s{
-margin-right: 60px;
-font-size: 20px;color: #817e7e;
+
+.s {
+    margin-right: 60px;
+    font-size: 20px;
+    color: #817e7e;
 }
-.r{
-margin-right: 45px;
-font-size: 24px;color: #817e7e;
+
+.r {
+    margin-right: 45px;
+    font-size: 24px;
+    color: #817e7e;
 }
-.p{
-margin-right: 20px;
-font-size: 20px;color: #817e7e;
+
+.p {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #817e7e;
 }
-.btn{
+
+.btn {
     background-color: #FF5400;
     color: #FFF;
     font-size: 20px;
-    
+
 }
-@media screen and (max-width:600px){
-    .banner{
-    width: 90%;
+
+@media screen and (max-width:600px) {
+    .banner {
+        width: 90%;
         height: 583px;
         margin: auto;
     }
-       .banner-title h3 {
-         font-size: 2rem;
-         font-weight: 800;
-         padding-top: 100px;
-        }
-.banner-title p {
-    width: 90%;
-} 
-#option {
-    width: 80%;
-    margin: 10px 10px;
+
+    .banner-title h3 {
+        font-size: 2rem;
+        font-weight: 800;
+        padding-top: 100px;
+    }
+
+    .banner-title p {
+        width: 90%;
+    }
+
+    #option {
+        width: 80%;
+        margin: 10px 10px;
+    }
+
+    .banner-option {
+        width: 90%;
+        height: 270px;
+    }
+
+    .banner-sup-option {
+        position: relative;
+        bottom: 320px;
+    }
 }
-.banner-option{
-    width: 90%;
-    height: 270px;
-}
-.banner-sup-option {
-    position: relative;
-    bottom: 320px;
-}
-} 
+
 /* banner end */
+
+
+.Our-Popular{
+    display: flex;
+    width: 90%;
+    margin:120px auto;
+    gap: 80px;
+}
+.Our-Popular-text h3{
+    color: #131318;
+        font-size: 40px;
+        font-weight: 800;
+}
+.Our-Popular-text p{
+    color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 30px 0;
+}
+.Our-Popular-text ul{
+margin-left: 50px;
+line-height: 26px;
+}
+.Our-Popular-text ul li{
+color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+   margin: 10px 0;
+}
+.btn-1{
+        border-radius: 10px;
+      padding: 15px 30px;
+        background-color: #FF5400;
+       color: #FFF;
+         font-size: 20px;
+}
+@media screen and (max-width:600px) {
+.Our-Popular {
+    display: grid;
+       grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: 120px auto;
+        gap: 80px;
+    }
+    .Our-Popular-image img{
+        width: 100%;
+        margin: auto;
+    }
+}
