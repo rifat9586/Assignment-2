@@ -208,6 +208,7 @@ gap: 20px;
 .Destination-image-1{
 width: 100%;
 margin: auto;
+
 }
 .center-text{
     position: relative;
@@ -232,6 +233,11 @@ margin: auto;
         .Destination-image-1 img{
             width: 100%;
         }
+     .center-text {
+         position: relative;
+          bottom: 180px;
+          font-size: 40px;
+          }
     
 }
 
@@ -239,8 +245,8 @@ margin: auto;
 display: flex;
     text-align: center;
     gap: 20px;
-    position: relative;
-    bottom: 35px;
+    /* position: relative;
+    bottom: 35px; */
 }
 
 
@@ -258,16 +264,13 @@ display: flex;
     display: flex;
         text-align: center;
         gap: 20px;
-        position: relative;
-        bottom: 70px;
+        /* position: relative;
+        bottom: 70px; */
 }
 @media screen and (max-width:600px) {
     .Destination-image-down{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    position: relative;
-        bottom: 0px;
-        gap: 10px;
     }
     .image-down img {
         width: 100%;
