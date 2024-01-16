@@ -277,7 +277,7 @@ display: flex;
     }
     .image-down img {
         width: 100%;
-        height: auto;
+        height: 400px;
     }
 }
   /* Destination end */
@@ -353,4 +353,3 @@ font-size: 25px;
   }
   /* about end */
 
-  
