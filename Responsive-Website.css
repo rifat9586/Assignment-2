@@ -2,8 +2,71 @@
     margin: 0;
     padding: 0;
 }
+/* nav-bar start */
+nav{
+width: 90%;
+margin: auto;
+padding: 30px 0;
+}
+.header{
+display: flex;
+justify-content: space-between;
+}
+.header-title img {
+    width: 40px;
+    height: 46.673px;
+}
 
+.header-title {
+  width: 50%;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
 
+.hero {
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+}
+.Travel {
+    color: #FF5400;
+}
+.nav-bar{
+padding-top: 5px;
+}
+.nav-bar ul{
+display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+.nav-bar ul li{
+    list-style: none;
+    color:  #424247;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 18px;
+        font-weight: 400;
+}
+@media screen and (max-width:600px){
+    .header {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+           justify-content: center;
+           align-items: center;
+        }
+                .nav-bar{
+                   text-align: center;
+                }
+        .header-title {
+           text-align: center;
+           width: 100%;
+        }
+}
+/* nav-bar end */
 /* banner start */
 .banner {
     background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
