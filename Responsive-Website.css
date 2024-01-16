@@ -233,6 +233,7 @@ width: 100%;
     }
         .Destination-image-1 img{
             width: 100%;
+            height: 400px;
         }
      .center-text {
          position: relative;
@@ -260,6 +261,7 @@ display: flex;
     }
 .image-med img{
     width: 100%;
+    height: 400px;
 }
 }
 .Destination-image-down{
