@@ -116,49 +116,49 @@ display: inline-flex;
     height: 52px;
     margin: 40px auto;
     border-radius: 10px;
-    padding: 16px 0;
+    padding: 30px 0;
+    
 }
 
-.banner-sup-option {
-    position: relative;
-    bottom: 105px;
-}
-
-#option {
-    opacity: 1;
-    width: 174px;
-    height: 45px;
-    z-index: 1;
-    font-family: Mulish;
-    font-weight: 400;
+#go{
+padding: 10px 10px;
     border-radius: 10px;
-    margin: 0 10px;
-    cursor: pointer;
-    border: none;
-}
-
-.s {
-    margin-right: 60px;
-    font-size: 20px;
-    color: #817e7e;
-}
-
-.r {
-    margin-right: 45px;
-    font-size: 24px;
-    color: #817e7e;
-}
-
-.p {
+    color: #000;
+    opacity: .9;
     margin-right: 20px;
-    font-size: 20px;
-    color: #817e7e;
+    cursor: auto;
 }
-
+::placeholder{
+    padding-left: 20px;
+}
+#when{
+    padding: 10px 45px;
+        border-radius: 10px;
+        border: 2px solid #000;
+        opacity: .9;
+        margin-right: 20px;
+        cursor: pointer;
+}
+#type{
+    padding: 10px 31px;
+        border-radius: 10px;
+        border: 2px solid #000;
+        opacity: .9;
+        margin-right: 20px;
+        cursor: pointer;
+    }
 .btn {
-    background-color: #FF5400;
-    color: #FFF;
-    font-size: 20px;
+background-color: #FF5400;
+   color: #fff;
+    font-size: 15px;
+    padding: 10px 31px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    opacity: .9;
+    cursor: pointer;
+}
+.fa-solid{
+    color: #fff;
 }
 
 @media screen and (max-width:600px) {
@@ -167,31 +167,41 @@ display: inline-flex;
         height: 583px;
         margin: auto;
     }
-
     .banner-title h3 {
         font-size: 2rem;
         font-weight: 800;
-        padding-top: 100px;
     }
+.banner-option {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    gap: 20px;
 
-    .banner-title p {
-        width: 90%;
-    }
+}
+  .btn {
+ width: 80%;
+margin: auto;
+  }
+  #go {
+   width: 74%;
+   margin: auto;
+  }
+  #when {
+width: 80%;
+    margin: auto;
+  }
 
-    #option {
-        width: 80%;
-        margin: 10px 10px;
-    }
-
-    .banner-option {
-        width: 90%;
-        height: 270px;
-    }
-
-    .banner-sup-option {
-        position: relative;
-        bottom: 320px;
-    }
+  #type {
+    width: 80%;
+        margin: auto;
+  }
+  .banner-title p {
+    width: 90%;
+    margin:10px auto;
+  }
 }
 
 /* banner end */
@@ -582,9 +592,6 @@ color: #FF5400;
     font-size: 20px;
     font-weight: 800;
     padding: 20px;
-}
-.fa-solid{
-    color: #FF5400;
 }
 .d-img img{
 width: 20px;
