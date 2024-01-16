@@ -355,6 +355,102 @@ font-size: 25px;
   }
   /* about end */
 
+
+  /* Newsletter start */
+.Newsletter{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.Newsletter-input{
+    padding: 50px;
+    border-radius: 16px;
+        border: 1px solid #FF5400;
+}
+.Newsletter-input-type{
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+#in{
+    padding: 15px;
+    border: 2px solid #8a8888;
+    border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+}
+#int{
+    padding: 15px;
+        border: 2px solid #8a8888;
+        border-radius: 8px;
+    background: #FF5400;
+    font-size: 17px;
+    color: #fafafa;
+}
+.Newsletter hr{
+    width: 393px;
+    margin: 40px 0;
+}
+.Newsletter-input-type h3{
+    color: #131318;
+        font-family: Mulish;
+        font-size: 24px;
+        font-weight: 800;
+        padding: 10px 0;
+        padding-top: 10px;
+}
+.Newsletter-input-type p{
+    color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+}
+.Newsletter-image{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+.Newsletter-image img{
+    height: 455px;
+        width: 100%;
+}
+.Travels{
+    border-radius: 16px;
+        background: #FF5400;
+        width: 324px;
+     padding: 20px 0;
+            transform: rotate(-19.628deg);
+            margin: auto;
+            text-align: center;
+            position: absolute;
+            bottom: 55px;
+                right: 6px;
+}
+.Travels h3{
+color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+}
+.Travels p{
+    color: #FFF;
+        font-family: Mulish;
+        font-size: 32px;
+        font-weight: 800;
+}
+@media screen and (max-width:600px){
+.Newsletter {
+    display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* Newsletter end */
+
+
+  /* footer start */
 footer{
     background: rgba(19, 19, 24, 0.05);
 }
@@ -412,3 +508,11 @@ footer h4{
         text-align: center;
         padding: 50px 0;
 }
+@media screen and (max-width:600px){
+    footer hr {
+            width: 90%;
+            margin: auto;
+
+        }
+}
+/* footer end */
