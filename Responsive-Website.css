@@ -70,8 +70,8 @@ display: inline-flex;
                    text-align: center;
                 }
         .header-title {
-           text-align: center;
            width: 100%;
+           text-align: center;
         }
 }
 /* nav-bar end */
