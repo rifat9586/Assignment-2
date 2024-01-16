@@ -355,3 +355,60 @@ font-size: 25px;
   }
   /* about end */
 
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+footer img{
+width: 40px;
+ height: 46.673px;
+}
+
+footer .f-i{
+    text-align: center;
+
+   padding-top: 70px;
+    color: #131318;
+        font-family: Mulish;
+            font-size: 32px;
+            font-weight: 800;
+}
+footer .hero{
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+}
+footer .Travel {
+color: #FF5400;
+}
+footer p{
+    width: 60%;
+    margin: auto;
+    color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+}
+.footer-icons{
+text-align: center;
+    font-size: 30px;
+    color: #000;
+    padding: 20px;
+}
+.fa-brands{
+    padding: 10px;
+}
+footer hr{
+    width: 70%;
+    margin: auto;
+    background: rgba(19, 19, 24, 0.10);
+}
+footer h4{
+    color: #131318;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        padding: 50px 0;
+}
