@@ -67,6 +67,8 @@ display: inline-flex;
         }
 }
 /* nav-bar end */
+
+
 /* banner start */
 .banner {
     background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -271,14 +273,14 @@ margin: 15px auto;
 }
 .Destination-image-1{
 width: 100%;
-
-
+position: relative;
 }
-.center-text{
-    position: relative;
-        bottom: 180px;
-        font-size: 40px;
-        color: #fff;
+.center-text-1{
+            font-size: 40px;
+                color: #fff;
+                position: absolute;
+                top: 130px;
+                left: 200px;
 }
 @media screen and (max-width:600px){
     .Destination {
@@ -292,39 +294,72 @@ width: 100%;
 .Destination-image-up{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    
     }
         .Destination-image-1 img{
             width: 100%;
             height: 400px;
         }
-     .center-text {
-         position: relative;
-          bottom: 180px;
-          font-size: 40px;
-          }
-    
+        .center-text-1 {
+            position: absolute;
+            top: 190px;
+            left: 200px;
+        }
 }
-
 .Destination-image-med{
 display: flex;
     text-align: center;
     gap: 20px;
     margin: 15px auto;
-    /* position: relative;
-    bottom: 35px; */
 }
-
-
+.image-med{
+    width: 100%;
+    position: relative;
+}
+.center-med-1{
+    font-size: 40px;
+        color: #fff;
+        position: absolute;
+        top: 130px;
+            left: 100px;
+}
+.center-med-2{
+    font-size: 40px;
+        color: #fff;
+        position: absolute;
+      top: 130px;
+     left: 120px;
+}
+.center-med-3{
+    font-size: 40px;
+        color: #fff;
+        position: absolute;
+        top: 130px;
+     left: 70px;
+}
 @media screen and (max-width:600px){
     .Destination-image-med{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    
     }
 .image-med img{
     width: 100%;
     height: 400px;
+}
+.center-med-1 {
+position: absolute;
+    top: 190px;
+    left: 200px;
+}
+
+.center-med-2 {
+position: absolute;
+    top: 190px;
+    left: 200px;
+}
+.center-med-3 {
+    position: absolute;
+        top: 190px;
+        left: 200px;
 }
 }
 .Destination-image-down{
@@ -332,8 +367,24 @@ display: flex;
         text-align: center;
         gap: 20px;
         margin: 15px auto;
-        /* position: relative;
-        bottom: 70px; */
+}
+.image-down{
+    width: 100%;
+    position: relative;
+}
+.center-down-1{
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 130px;
+    left: 130px;
+}
+.center-down-2{
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 130px;
+    left: 250px;
 }
 @media screen and (max-width:600px) {
     .Destination-image-down{
@@ -344,6 +395,17 @@ display: flex;
         width: 100%;
         height: 400px;
     }
+        .center-down-1 {
+            position: absolute;
+            top: 190px;;
+                left: 200px;
+        }
+    
+        .center-down-2 {
+            position: absolute;
+                top: 190px;
+                left: 200px;
+        }
 }
   /* Destination end */
 
