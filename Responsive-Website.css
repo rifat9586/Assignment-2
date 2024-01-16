@@ -130,7 +130,7 @@ display: inline-flex;
     font-weight: 400;
     border-radius: 10px;
     margin: 0 10px;
-
+    cursor: pointer;
     border: none;
 }
 
@@ -232,6 +232,7 @@ color: rgba(19, 19, 24, 0.70);
          font-size: 20px;
          border: none;
          opacity: 1;
+        cursor: pointer;
 }
 @media screen and (max-width:600px) {
 .Our-Popular {
@@ -660,6 +661,15 @@ color: #5A5A5D;
 width: 585px;
     height: auto;
     border-radius: 15px;
+    position: relative;
+}
+.video-viwe h2{
+    width: 60%;
+        text-align: center;
+        position: absolute;
+        top: 150px;
+        left: 100px;
+        color: #fff;
 }
 @media screen and (max-width:600px){
 .viwe {
@@ -711,6 +721,7 @@ width: 585px;
     background: #FF5400;
     font-size: 17px;
     color: #fafafa;
+    cursor: pointer;
 }
 .Newsletter hr{
     width: 393px;
